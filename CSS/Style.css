@@ -151,3 +151,113 @@ align-items: center;
     transition: .3s;
 }
 /* banner css ends here */
+
+
+/* aboutme css starts here */
+#aboutPart{
+    margin: 130px 0;
+
+}
+.about{
+    padding: 131px 157px;
+    background-color: #FFF8F3;
+}
+.aboutContent{
+    text-align: center;
+}
+.aboutContent h2{
+    margin-bottom: 30px;
+     font-family: "Open Sans", sans-serif;
+     color: #181818;  
+     font-size: 35px;
+   font-weight: 700;
+
+}
+.aboutContent p{
+     font-family: "Open Sans", sans-serif;
+     color: #757575;  
+     font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+   width: 800px;
+   margin: 0 auto;
+
+}
+.aboutBio{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    gap: 60px;
+   
+}
+.aboutBio p{
+    font-family: "Open Sans", sans-serif;
+     color: #757575;  
+     font-size: 20px;
+      line-height: 30px;
+   font-weight: 400;
+
+}
+.aboutBio h5{
+    font-family: "Open Sans", sans-serif;
+     color: #474747;  
+     font-size: 20px;
+      line-height: 30px;
+   font-weight: 700;
+
+}
+
+/* aboutme css ends here */
+/* whatido css starts here */
+
+#WhatIDoPart{
+margin: 130px 0;
+}
+.whatidoHead{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.whatidoHead h2{
+    font-family: "Open Sans", sans-serif;
+     color: #181818;  
+     font-size: 35px;
+   font-weight: 700;
+   margin-bottom: 30px;
+}
+.whatidoHead p{
+    font-family: "Open Sans", sans-serif;
+     color: #757575;  
+     font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+   width: 909px;
+   margin: 0 auto;
+}
+.cardsection{
+    display: flex;
+    gap: 24px;
+}
+.one{
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.one h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+     font-family: "Open Sans", sans-serif;
+     color: #181818;  
+     font-size: 20px;
+   font-weight: 700;
+  
+}
+.one p{
+    width: 201px;
+     font-family: "Open Sans", sans-serif;
+     color: #757575;  
+     font-size: 16px;
+   font-weight: 400;
+   line-height: 28px;
+}
+
+/* whatido css ends here */
