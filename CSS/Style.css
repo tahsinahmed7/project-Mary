@@ -187,7 +187,8 @@ align-items: center;
     margin-top: 30px;
     display: flex;
     text-align: center;
-    gap: 60px;
+    gap: 50px;
+    justify-content: center;
    
 }
 .aboutBio p{
