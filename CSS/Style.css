@@ -20,8 +20,14 @@ a{
 /* header css starts here */
 .header{
     padding: 50px 0;
-}
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 
+
+}
 .menu ul{
     display: flex;
     gap: 71px;
@@ -31,32 +37,43 @@ a{
     align-items: center;
     justify-content: space-between;
     font-family: "Open Sans", sans-serif;
+     
 }
-.btn a{
+
+/* .btn a{
     padding: 18px 35px;
     background-color: #FD6E0A; 
     color: white;  
     border-radius: 5px;
    font-size: 20px;
-   font-weight: 700;
-}
+   font-weight: 700; */
+
 .menu ul li a{
     color: #474747;
     font-size: 20px;
     font-weight: 400;
 }
+.menu ul li a:hover{
+    color: #FD6E0A;
+     transition: .3s;
+}
+    
+
 .menubtn{
     display: flex;
     gap: 51px;
+    align-items: center;
 }
 /* header css ends here */
 /* banner css starts here */
 .bannerpart{
-    padding-top: 161px;
+    padding-top: 250px;
     background-image: url(../Image/Banner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+    z-index: 1;
 }
 .bannertext h3{
      font-family: "Open Sans", sans-serif;
@@ -82,6 +99,55 @@ a{
 }
 .bannerflex{
 display: flex;
-gap: 165px;
+gap: 250px;
+align-items: center;
+}
+.bannerbtn{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.btn{
+     padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background-color: #FD6E0A;
+    display: inline-block;
+   font-family: "Open Sans", sans-serif;
+     color: #FFFFFF;  
+     font-size: 20px;
+   font-weight: 700;
+   border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+.btn .gap{
+    margin-right: 10px;
+}
+.btn:hover{
+    border: 1px solid #FD6E0A;
+    background: transparent;
+    color: #FD6E0A;
+     transition: .3s;
+}
+.btnn{
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #FD6E0A;
+    display: inline-block;
+   font-family: "Open Sans", sans-serif;
+     color: #FFFFFF;  
+     font-size: 20px;
+   font-weight: 700;
+   border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+.btnn:hover{
+    border: 1px solid #FD6E0A;
+    background: transparent;
+    color: #FD6E0A;
+    transition: .3s;
 }
 /* banner css ends here */
