@@ -242,6 +242,7 @@ margin: 130px 0;
     padding: 30px;
     background-color: white;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
 .one h4{
     margin-top: 30px;
@@ -262,3 +263,155 @@ margin: 130px 0;
 }
 
 /* whatido css ends here */
+
+
+/* Resume css starts here */
+#resumePart{
+    margin: 130px 0;
+}
+.resumeHead h2{
+text-align: center;
+   font-family: "Open Sans", sans-serif;
+     color: #181818;  
+     font-size: 35px;
+   font-weight: 700;
+}
+.resumeCareer{
+    margin-top: 113px;
+}
+/* .careerPartOne{
+    margin-bottom: 60px;
+} */
+ .alpha{
+    margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+     color: #474747;  
+     font-size: 30px;
+   font-weight: 700;
+}
+ .beta{
+      margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+     color: #474747;  
+     font-size: 25px;
+   font-weight: 700;
+}
+ .gama{
+      margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+     color: #757575;  
+     font-size: 20px;
+   font-weight: 600;
+}
+ .pie{
+    width: 450px;
+    font-family: "Open Sans", sans-serif;
+     color: #757575;  
+     font-size: 16px;
+     line-height: 28px;
+   font-weight: 400;
+}
+/* .careerPartTwo{
+    margin-bottom: 60px; */
+
+.resumeExp{
+    margin-top: 113px;
+}
+.resumeflex{
+    display: flex;
+    gap: 100px;
+}
+.line{
+    margin: 30px 0;
+    width: 588px;
+    border: 1px solid #D1D1D1 ;
+}
+.resumebtn{
+    margin-top: 50px;
+    text-align: center;
+}
+/* Resume css ends here */
+/* footer css ends here */
+#FooterPart{
+padding: 130px 0;
+background: #FFF8F3;
+}
+.footer{
+    display: flex;
+    gap: 117px;
+}
+.footer .left{
+ width: 50%;
+}
+.footer .left h2{
+   
+    font-family: "Open Sans", sans-serif;
+     color: #181818;  
+     font-size: 35px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.footer .left p{
+    
+    font-family: "Open Sans", sans-serif;
+     color: #474747;  
+     font-size: 16px;
+   font-weight: 400;
+   line-height: 28px;
+  width: 562px;
+     margin-bottom: 30px;
+}
+.socialicon{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.socialicon a{
+    color: #FD6E0A;
+    font-size: 24px;
+}
+.footer .right{
+    width: 50%;
+}
+.footer .right h2{
+   font-family: "Open Sans", sans-serif;
+     color: #181818;  
+     font-size: 35px;
+   font-weight: 700;
+   margin-bottom: 28px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.formcommon{
+
+    padding: 18px 0 18px 30px;
+    font-family: "Open Sans", sans-serif;
+     color: #757575;  
+     font-size: 16px;
+   font-weight: 400;
+}
+.btnFooter{
+    margin-top: 24px;
+     padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 39px;
+    padding-right: 39px;
+    background-color: #FD6E0A;
+    display: inline-block;
+   font-family: "Open Sans", sans-serif;
+     color: #FFFFFF;  
+     font-size: 20px;
+   font-weight: 700;
+   border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+.btnFooter:hover{
+    border: 1px solid #FD6E0A;
+    background: transparent;
+    color: #FD6E0A;
+     transition: .3s;
+}
+/* footer css ends here */
